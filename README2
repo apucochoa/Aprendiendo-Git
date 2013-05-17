@@ -1,0 +1,28 @@
+Comandos que se deben saber para poder trabajar con GIT
+
+1 - Una vez instalado git hay que configurarlo:
+> git config --global user.name "Minombre"
+> git config --global user.email "micorreo@midominio.com"
+
+los dos comandos anteriores se hacen solo por primera vez
+
+2 - Generar una clave publica
+> ssh-keygen
+
+3 - Leyendo la clave creada para copiarla en GitHub
+> cat ~/.ssh/id_rsa.pub
+
+4 - Inicializar el proyecto, situandose en la carpeta donde estara alojado
+> git init
+
+5 - Creando un archivo README
+> touch README
+
+6 - Agregando el archivo
+> add README
+
+7 - Hacer el commit
+> git commit -m "el primer commit"
+
+8 - Empujarlo o subirlo a github
+> git push origin master
